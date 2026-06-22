@@ -215,12 +215,6 @@ Image directly browser se Cloudinary pe upload hoti hai unsigned preset ke throu
 
 ---
 
-## 🤝 Contributing
-
-Pull requests welcome! Bade changes ke liye pehle issue open karo discuss karne ke liye.
-
----
-
 ## 📄 License
 
 This project is open source — [MIT License](LICENSE).
