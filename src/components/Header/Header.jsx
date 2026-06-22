@@ -14,16 +14,20 @@ const Header = ({ search, setSearch, setSearchText }) => {
   const dispatch = useDispatch();
   const router = useRouter();
 
+  // ✅ router change hone par user state update hogi
   useEffect(() => {
     const userData = sessionStorage.getItem("user");
     if (userData) {
       setUser(JSON.parse(userData));
+    } else {
+      setUser(null);
     }
-  }, []);
+  }, [router]);
 
   const handleLogout = () => {
     dispatch(logout());
     sessionStorage.clear();
+    setUser(null); // ✅ turant Header update
     router.replace("/login");
   };
 
@@ -41,10 +45,7 @@ const Header = ({ search, setSearch, setSearchText }) => {
           <span>BlogHub</span>
         </Navbar.Brand>
 
-        <Navbar.Toggle
-          aria-controls="navbar-nav"
-          className="border-0 shadow-none"
-        />
+        <Navbar.Toggle aria-controls="navbar-nav" className="border-0 shadow-none" />
 
         <Navbar.Collapse id="navbar-nav">
           <div className="nav-actions ms-auto">
