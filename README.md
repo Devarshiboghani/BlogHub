@@ -15,9 +15,9 @@
 
 - 🔐 **Auth System** — Login & Signup with JSON Server + sessionStorage
 - 🔍 **Search** — Search blogs by title, category, or author
-- 🏷️ **Filter** — Filter by category (Technology, Programming, React, Next.js, AI)
+- 🏷️ **Filter** — Filter by category (Technology, Food, Fashion, Business)
 - 📊 **Sort** — Sort A→Z, Z→A, Newest, Oldest, or by Category
-- 📄 **Pagination** — 6 blogs per page with page number controls
+- 📄 **Pagination** — 3 blogs per page with page number controls
 - ➕ **Add Blog** — Full form with Cloudinary image upload & client-side validation
 - ✏️ **Edit Blog** — Dynamic route `/edit-blog/[id]`
 - 🗑️ **Delete Blog** — Remove instantly with confirmation prompt
