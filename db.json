@@ -62,6 +62,15 @@
       "image": "https://res.cloudinary.com/dg9uxwjhr/image/upload/v1782132643/ocd5o5yextxih45u11er.jpg",
       "createdAt": "6/22/2026",
       "id": "kg-5HDrb46g"
+    },
+    {
+      "title": "The Future of Artificial Intelligence",
+      "date": "21/06/2026",
+      "category": "Technology",
+      "content": "AI is transforming industries through automation, predictive analytics, and intelligent decision-making",
+      "image": "https://res.cloudinary.com/dg9uxwjhr/image/upload/v1782134180/kkf3qlf7bsxxpsxks4kp.jpg",
+      "createdAt": "6/22/2026",
+      "id": "Cw4QXsfwXWo"
     }
   ],
   "users": [
@@ -78,27 +87,6 @@
       "email": "john@gmail.com",
       "password": "123456",
       "id": "8tuwrYgcIhE"
-    },
-    {
-      "firstname": "Lorem",
-      "lastname": "Ipsum",
-      "email": "lorem@gmail.com",
-      "password": "123456",
-      "id": "LogimVb474A"
-    },
-    {
-      "firstname": "Lrem",
-      "lastname": "Ipsum",
-      "email": "loorem@gmail.com",
-      "password": "123789",
-      "id": "lQbrMV6py64"
-    },
-    {
-      "firstname": "John",
-      "lastname": "Deo",
-      "email": "johnn@gmail.com",
-      "password": "123456",
-      "id": "O-EYG1GjHpQ"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
