@@ -114,7 +114,7 @@ my-blog/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Devarshiboghani/my-blog
+git clone https://github.com/Devarshiboghani/BlogHub
 
 # 2. Navigate into the project
 cd my-blog
