@@ -1,7 +1,6 @@
 # BlogHub 📝
 
-> A modern full-stack blog platform — write, read, and inspire.  
-> Built with **Next.js 15**, **Redux Toolkit**, **JSON Server**, and **Cloudinary**.
+ A modern full-stack blog platform — write, read, and inspire, Built with **Next.js 15**, **Redux Toolkit**, **JSON Server**, and **Cloudinary**.
 
 ![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
 ![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
@@ -222,6 +221,8 @@ This project is open source — [MIT License](LICENSE).
 ---
 
 ## Demo Video
+
+https://drive.google.com/file/d/1eXd6nj7819U0Lb09YOHzOW_YgtttboLx/view?usp=sharing
 
 ---
 
