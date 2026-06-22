@@ -1,0 +1,86 @@
+{
+  "blogs": [
+    {
+      "title": "Top Fashion Trends of 2026",
+      "date": "01/06/2026",
+      "category": "Fashion",
+      "content": "Fashion in 2026 focuses on sustainable clothing, oversized fits, and vibrant colors that combine comfort with style",
+      "image": "https://res.cloudinary.com/dg9uxwjhr/image/upload/v1782117477/qefxwd9pegcs5jjsclrh.avif",
+      "createdAt": "6/22/2026",
+      "id": "0oPYYbta6JA"
+    },
+    {
+      "title": "Top 10 Street Foods Around the World",
+      "date": "05/06/2026",
+      "category": "Food",
+      "content": "Street food offers unique flavors and cultural experiences, making it a favorite for travelers worldwide",
+      "image": "https://res.cloudinary.com/dg9uxwjhr/image/upload/v1782116539/eq2ofruo1fk27nf5ffvx.jpg",
+      "createdAt": "6/22/2026",
+      "id": "zzb0i6cYC1s"
+    },
+    {
+      "title": "Building a Strong Brand Identity",
+      "date": "18/06/2026",
+      "category": "Business",
+      "content": "A strong brand identity helps businesses stand out and build long-term customer trust",
+      "image": "https://res.cloudinary.com/dg9uxwjhr/image/upload/v1782117060/k4nhyww2vs0kv64q68bv.jpg",
+      "createdAt": "6/22/2026",
+      "id": "8bGJ4Oo5MVY"
+    },
+    {
+      "title": "Easy Recipes for Busy Professionals",
+      "date": "06/06/2026",
+      "category": "Food",
+      "content": "Quick and healthy recipes can save time while ensuring proper nutrition throughout the week",
+      "image": "https://res.cloudinary.com/dg9uxwjhr/image/upload/v1782117140/ctfb0rcqwpgcx1oxhsb1.jpg",
+      "createdAt": "6/22/2026",
+      "id": "gq4YavTcosE"
+    },
+    {
+      "title": "The Future of Artificial Intelligence",
+      "date": "11/06/2026",
+      "category": "Technology",
+      "content": "AI is transforming industries through automation, predictive analytics, and intelligent decision-making",
+      "image": "https://res.cloudinary.com/dg9uxwjhr/image/upload/v1782117223/j5wljod1fvv8zcsuywgw.jpg",
+      "createdAt": "6/22/2026",
+      "id": "UIsCd84Z2EI"
+    },
+    {
+      "title": "How to Start a Successful Business",
+      "date": "12/06/2026",
+      "category": "Business",
+      "content": "A successful business begins with identifying market opportunities and delivering value to customers",
+      "image": "https://res.cloudinary.com/dg9uxwjhr/image/upload/v1782117320/dgsdbgn5vj8pldx6ouky.avif",
+      "createdAt": "6/22/2026",
+      "id": "CxAF4ylIO_s"
+    },
+    {
+      "title": "Best Accessories to Elevate Your Look",
+      "date": "03/06/2026",
+      "category": "Fashion",
+      "content": "Accessories such as watches, sunglasses, and bags can transform a simple outfit into a fashionable statement\n",
+      "image": "https://res.cloudinary.com/dg9uxwjhr/image/upload/v1782117368/ab5ayfkcfd89n4o7rhfn.jpg",
+      "createdAt": "6/22/2026",
+      "id": "UWXNLWPsI1s"
+    },
+    {
+      "title": "Cloud Computing Explained",
+      "date": "04/05/2026",
+      "category": "Technology",
+      "content": "Cloud computing allows businesses to scale applications efficiently while reducing infrastructure costs",
+      "image": "https://res.cloudinary.com/dg9uxwjhr/image/upload/v1782119195/vn1u92ihjxm0o2ospfah.jpg",
+      "createdAt": "6/22/2026",
+      "id": "Z8Ae0nEzkW4"
+    }
+  ],
+  "users": [
+    {
+      "firstname": "Devarshi",
+      "lastname": "Boghani",
+      "email": "devarshi@gmail.com",
+      "password": "123456",
+      "id": "SKQmnaVptTE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
