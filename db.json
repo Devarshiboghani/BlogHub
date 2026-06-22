@@ -20,7 +20,7 @@
     },
     {
       "title": "Building a Strong Brand Identity",
-      "date": "18/06/2026",
+      "date": "18/06/2027",
       "category": "Business",
       "content": "A strong brand identity helps businesses stand out and build long-term customer trust",
       "image": "https://res.cloudinary.com/dg9uxwjhr/image/upload/v1782117060/k4nhyww2vs0kv64q68bv.jpg",
@@ -47,7 +47,7 @@
     },
     {
       "title": "How to Start a Successful Business",
-      "date": "12/06/2026",
+      "date": "12/06/2027",
       "category": "Business",
       "content": "A successful business begins with identifying market opportunities and delivering value to customers",
       "image": "https://res.cloudinary.com/dg9uxwjhr/image/upload/v1782117320/dgsdbgn5vj8pldx6ouky.avif",
@@ -58,19 +58,10 @@
       "title": "Best Accessories to Elevate Your Look",
       "date": "03/06/2026",
       "category": "Fashion",
-      "content": "Accessories such as watches, sunglasses, and bags can transform a simple outfit into a fashionable statement\n",
-      "image": "https://res.cloudinary.com/dg9uxwjhr/image/upload/v1782117368/ab5ayfkcfd89n4o7rhfn.jpg",
+      "content": "Accessories such as watches, sunglasses, and bags can transform a simple outfit into a fashionable statement",
+      "image": "https://res.cloudinary.com/dg9uxwjhr/image/upload/v1782132643/ocd5o5yextxih45u11er.jpg",
       "createdAt": "6/22/2026",
-      "id": "UWXNLWPsI1s"
-    },
-    {
-      "title": "Cloud Computing Explained",
-      "date": "04/05/2026",
-      "category": "Technology",
-      "content": "Cloud computing allows businesses to scale applications efficiently while reducing infrastructure costs",
-      "image": "https://res.cloudinary.com/dg9uxwjhr/image/upload/v1782119195/vn1u92ihjxm0o2ospfah.jpg",
-      "createdAt": "6/22/2026",
-      "id": "Z8Ae0nEzkW4"
+      "id": "kg-5HDrb46g"
     }
   ],
   "users": [
@@ -94,6 +85,20 @@
       "email": "lorem@gmail.com",
       "password": "123456",
       "id": "LogimVb474A"
+    },
+    {
+      "firstname": "Lrem",
+      "lastname": "Ipsum",
+      "email": "loorem@gmail.com",
+      "password": "123789",
+      "id": "lQbrMV6py64"
+    },
+    {
+      "firstname": "John",
+      "lastname": "Deo",
+      "email": "johnn@gmail.com",
+      "password": "123456",
+      "id": "O-EYG1GjHpQ"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

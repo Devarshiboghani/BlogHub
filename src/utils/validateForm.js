@@ -17,9 +17,6 @@ const validateForm = (data) => {
     errors.date = "Date is required !";
   }
 
-  if (!data.tag || data.tag.trim() === "") {
-    errors.tag = "Tag is required !";
-  }
   return errors;
 };
 

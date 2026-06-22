@@ -15,9 +15,8 @@ const EditBlog = () => {
 
   const [blog, setBlog] = useState({
     title: "",
-    author: "",
+    date: "",
     category: "",
-    description: "",
     content: "",
     image: "",
   });

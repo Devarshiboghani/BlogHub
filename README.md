@@ -221,4 +221,8 @@ This project is open source — [MIT License](LICENSE).
 
 ---
 
+## Demo Video
+
+---
+
 <p align="center">Made with ❤️ using Next.js & Redux Toolkit</p>

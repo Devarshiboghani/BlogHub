@@ -17,9 +17,8 @@ const AddBlog = () => {
 
   const [blog, setBlog] = useState({
     title: "",
-    author: "",
+    date: "",
     category: "",
-    description: "",
     content: "",
     image: "",
   });
@@ -110,11 +109,10 @@ const AddBlog = () => {
                 onChange={handleChange}
               >
                 <option value="">Select Category</option>
+                <option value="Fashion">Fashion</option>
+                <option value="Food">Food</option>
                 <option value="Technology">Technology</option>
-                <option value="Programming">Programming</option>
-                <option value="React">React</option>
-                <option value="Next.js">Next.js</option>
-                <option value="AI">AI</option>
+                <option value="Business">Business</option>
               </select>
               {errors.category && (
                 <span className="error">{errors.category}</span>
@@ -148,14 +146,14 @@ const AddBlog = () => {
 
             <div className="field-wrap">
               <textarea
-                name="description"
+                name="content"
                 placeholder="Write your blog content..."
                 rows="3"
-                value={blog.description}
+                value={blog.content}
                 onChange={handleChange}
               />
-              {errors.description && (
-                <span className="error">{errors.description}</span>
+              {errors.content && (
+                <span className="error">{errors.content}</span>
               )}
             </div>
 
