@@ -57,15 +57,37 @@ export const filterBlogs = createAsyncThunk("blogs/filterBlogs", async (category
 
 export const login = createAsyncThunk("auth/login", async (data, { rejectWithValue }) => {
     try {
-        const res = await axios.get(`http://localhost:5000/users?email=${data.email}&password=${data.password}`);
+        // Pehle sirf email se dhundho
+        const res = await axios.get(`http://localhost:5000/users?email=${data.email}`);
+        
         if (res.data.length === 0) {
             return rejectWithValue("Invalid email or password!");
         }
-        return res.data[0];
+
+        // Phir password manually match karo
+        const user = res.data.find(u => u.password === data.password);
+        
+        if (!user) {
+            return rejectWithValue("Invalid email or password!");
+        }
+
+        return user;
     } catch (error) {
         return rejectWithValue(error.message);
     }
 });
+
+// export const login = createAsyncThunk("auth/login", async (data, { rejectWithValue }) => {
+//     try {
+//         const res = await axios.get(`http://localhost:5000/users?email=${data.email}&password=${data.password}`);
+//         if (res.data.length === 0) {
+//             return rejectWithValue("Invalid email or password!");
+//         }
+//         return res.data[0];
+//     } catch (error) {
+//         return rejectWithValue(error.message);
+//     }
+// });
 
 export const signUp = createAsyncThunk("auth/signUp", async (data, { rejectWithValue }) => {
     try {
